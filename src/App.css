@@ -1,0 +1,77 @@
+body{
+    background-color: grey;
+}
+.App{
+    margin: 100px 30%;
+    border: 1px solid #fff;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+.App h2{
+    color: #fff;
+}
+.App ul{
+    list-style: "⭐";
+    cursor: pointer;
+    color :greenyellow;
+    font-size: 22px;
+    margin:20px;
+
+}
+
+.App input{
+    width:200px;
+    height: 40px;
+    border-radius: 10px;
+    margin:20px
+
+}
+.App button{
+
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0;
+}
+.App button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.App ul li{
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    /* overflow-wrap: break-word; */
+    /* Both are the same they make the long words go to a new line*/
+}
+.App ul li:hover{
+    color: aqua; 
+}
+.App ul span:hover {
+    background-color: white;
+}
+.doneStyle{
+    list-style: "✅";
+    text-decoration: line-through;
+    /* background-color: red; */
+}
+.Task{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    position: relative;
+}
+hr{
+    display: block;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    /* top: 18px; */
+    left: 0;
+    bottom: -12px;
+}
